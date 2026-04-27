@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
+@CrossOrigin(origins = "https://skillvault-frontend1-production.up.railway.app/", maxAge = 3600)
 @RestController
 @RequestMapping("/api/certifications")
 public class CertificationController {
